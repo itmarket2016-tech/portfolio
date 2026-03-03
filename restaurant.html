@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurant Website — DevStudio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__logo">DevStudio</div>
+  <a href="#" onclick="history.back(); return false;" class="nav__back">
+    <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+    Назад до портфоліо
+  </a>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="badge">Портфоліо</div>
+    <h1 class="hero__title">Restaurant Website</h1>
+    <p class="hero__sub">Сучасний сайт ресторану з онлайн-бронюванням столиків, інтерактивним меню та системою лояльності для гостей</p>
+    <div class="hero__tags">
+      <span class="tag">Vue.js</span>
+      <span class="tag">Firebase</span>
+      <span class="tag">Tailwind CSS</span>
+      <span class="tag">Лендінг</span>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="main-image">
+    <img src="photos/restaurant.jpg" alt="Restaurant Website"/>
+  </div>
+
+  <div class="content-grid">
+    <div class="content">
+      <p class="section-label">Про проект</p>
+      <h2>Ресторан з атмосферою преміум-класу</h2>
+      <p class="text">Клієнт — власник ресторану преміум-класу в центрі міста. Завдання полягало у створенні сайту, який передає атмосферу закладу, збільшує кількість онлайн-бронювань та розповідає гостям про меню та спеціальні події.</p>
+      <p class="text">Ми розробили елегантний темний дизайн з акцентами на фотографії страв та інтер'єру. Система онлайн-бронювання інтегрована з Firebase, що дозволяє власнику управляти резервуванням у реальному часі.</p>
+      <p class="text">Окремо реалізовано інтерактивне меню з фільтрацією по категоріях, сторінку подій та блог з рецептами від шеф-кухаря — все це підвищує залученість аудиторії та SEO-показники сайту.</p>
+
+      <p class="section-label section-label--mt">Виклики та рішення</p>
+      <h2>Як ми вирішили ключові задачі</h2>
+      <p class="text">Головним викликом було передати атмосферу ресторану через екран. Ми вирішили це через кінематографічну подачу фотографій, плавні анімації та темну кольорову палітру з золотими акцентами.</p>
+      <p class="text">Система бронювання потребувала реал-тайм синхронізації між адмін-панеллю та сайтом. Firebase Realtime Database ідеально впорався з цим завданням без необхідності власного backend-сервера.</p>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-card">
+        <h4>Деталі проекту</h4>
+        <div class="info-row"><span class="info-label">Клієнт</span><span class="info-val">Ресторан</span></div>
+        <div class="info-row"><span class="info-label">Тип</span><span class="info-val">Лендінг</span></div>
+        <div class="info-row"><span class="info-label">Термін</span><span class="info-val">14 днів</span></div>
+        <div class="info-row"><span class="info-label">Рік</span><span class="info-val">2024</span></div>
+      </div>
+      <div class="sidebar-card">
+        <h4>Технології</h4>
+        <div class="info-row"><span class="info-label">Frontend</span><span class="info-val">Vue.js 3</span></div>
+        <div class="info-row"><span class="info-label">Backend</span><span class="info-val">Firebase</span></div>
+        <div class="info-row"><span class="info-label">Стилі</span><span class="info-val">Tailwind CSS</span></div>
+        <div class="info-row"><span class="info-label">Хостинг</span><span class="info-val">Vercel</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features">
+    <p class="section-label">Функціонал</p>
+    <h2>Що реалізовано в проекті</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📅</div>
+        <h3>Онлайн-бронювання</h3>
+        <p>Система резервування столиків з вибором дати, часу та кількості гостей у реальному часі</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🍽️</div>
+        <h3>Інтерактивне меню</h3>
+        <p>Меню з фільтрацією по категоріях, фото страв, описами та цінами з можливістю оновлення</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>Адаптивний дизайн</h3>
+        <p>Сайт коректно відображається на всіх пристроях — від смартфонів до великих моніторів</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎉</div>
+        <h3>Сторінка подій</h3>
+        <p>Анонси та архів спеціальних вечорів, дегустацій та приватних заходів ресторану</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>SEO-оптимізація</h3>
+        <p>Технічне SEO, мікророзмітка, швидке завантаження та оптимізовані мета-теги</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚙️</div>
+        <h3>Адмін-панель</h3>
+        <p>Зручна панель управління контентом, бронюваннями та меню для власника ресторану</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="results">
+    <p class="section-label section-label--center">Результати</p>
+    <h2 class="detail-h2 detail-h2--center">Досягнуті показники після запуску</h2>
+    <div class="results-grid">
+      <div><div class="result-val">+180%</div><div class="result-label">Зріст онлайн-бронювань</div></div>
+      <div><div class="result-val">2.1s</div><div class="result-label">Час завантаження</div></div>
+      <div><div class="result-val">Top 3</div><div class="result-label">Google за ключовими словами</div></div>
+      <div><div class="result-val">4.9★</div><div class="result-label">Оцінка клієнта</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="cta">
+  <div class="container">
+    <h2>Хочете схожий проект?</h2>
+    <p>Розкажіть про вашу ідею — я створю унікальне рішення для вашого бізнесу</p>
+    <a href="index.html#contact" class="btn btn--primary">Замовити сайт →</a>
+    <a href="index.html#portfolio" class="btn btn--outline">← Інші роботи</a>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2024 DevStudio. Всі права захищені.</p>
+  </div>
+</footer>
+
+</body>
+</html>
